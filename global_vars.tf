@@ -4,11 +4,11 @@ variable "gcp_project_id" {
 }
 
 variable "gcp_region" {
-  type        = string
+  type = string
   description = "Google Cloud Region."
 }
 
 variable "gcp_zone" {
-  type        = string
+  type = string
   description = "Google Cloud Zone."
 }
